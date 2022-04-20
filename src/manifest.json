@@ -1,5 +1,5 @@
 {
-  "name": "Chrome Extension Webpack",
+  "name": "Linkedin OpenBook responder",
   "options_page": "options.html",
   "background": {
     "page": "background.html"
@@ -11,6 +11,12 @@
   "icons": {
     "128": "icon-128.png"
   },
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/pulse/*"],
+      "js": ["contentScript.bundle.js"]
+    }
+  ],
   "manifest_version": 2,
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }
