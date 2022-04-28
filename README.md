@@ -9,10 +9,12 @@ Note that the script will pause if someone writes something above the MAX_Chars,
 
 ## Using this extension
 
-1. nvm install
-2. npm i
-3. npm run start for dev
-4. npm run build for production
+For non-developers who just want to use it, [download the prebuilt "build" folder here](https://github.com/ptrckbp/linkedin-autoresponder/releases/download/release/build.zip) and skip steps 1-4
+
+1. `nvm install`
+2. `npm i`
+3. `npm run start` for dev
+4. `npm run build` for production
 5. Go to chrome://extensions in Google Chrome
 6. Enable developer mode.
 7. Click "Load unpacked", then select the "build" folder of this project
