@@ -27,13 +27,13 @@ For non-developers who just want to use it, [download the prebuilt "build" folde
 The relevant code is src/js/contentScript.js (that's what's injected in the page) and src/manifest.json which determines when to inject the contentScript.js file.
 
 ## Configuration 
-If you want to post not as Botpress (default for PRODUCTION), but under another account, You need to change the LINKEDIN_COMPANY_ID and LINKEDIN_AUTHOR_HREF variables. 
+- If you want to post not as Botpress (default for PRODUCTION), but under another account, You need to change the LINKEDIN_COMPANY_ID and LINKEDIN_AUTHOR_HREF variables. 
 
-You can get the LINKEDIN_COMPANY_ID by going to your company page, logged in as an admin. 
+- You can get the LINKEDIN_COMPANY_ID by going to your company page, logged in as an admin. 
 The url should look like this https://www.linkedin.com/company/81588930/admin/. The company id is the number, 81588930 in this case. If you click "View as member", you should be redirected to something like this https://www.linkedin.com/company/jubjub-rockets/?viewAsMember=true. The author_href is https://www.linkedin.com/company/jubjub-rockets/ in this case.
 
-If your script is going to fast, and you internet is slow, try adding increments of 250 to GLOBAL_DELAY_MS below until everything works.
+- If your script is going to fast, and you internet is slow, try adding increments of 250 to GLOBAL_DELAY_MS below until everything works.
 
-If you want to change Openbook's book to another one, update OPENBOOK_ASK_ENDPOINT and OPENBOOK_QUESTIONS_ENDPOINT.
+- If you want to change Openbook's book to another one, update OPENBOOK_ASK_ENDPOINT and OPENBOOK_QUESTIONS_ENDPOINT.
 
-Finally, if you want to see the text before submiting, set AUTO_RESPOND to false
+- Finally, if you want to see the text before submiting, set AUTO_RESPOND to false
