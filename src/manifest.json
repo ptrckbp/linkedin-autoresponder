@@ -13,7 +13,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://www.linkedin.com/pulse/*"],
+      "matches": ["https://www.linkedin.com/feed/update/*"],
       "js": ["contentScript.bundle.js"]
     }
   ],
