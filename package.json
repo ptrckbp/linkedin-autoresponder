@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Responds to LinkedIn post comments using OpenBook api",
   "scripts": {
-    "build": "node utils/build.js",
+    "build": "NODE_ENV=production node utils/build.js",
     "start": "node utils/webserver.js"
   },
   "devDependencies": {
